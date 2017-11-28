@@ -1,0 +1,4 @@
+config/database.config.php
+vendor/
+composer.lock
+.idea/

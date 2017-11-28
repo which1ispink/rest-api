@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Database config
+ */
+return [
+    'host'     => 'localhost',
+    'database' => 'rest_api',
+    'user'     => 'username',
+    'password' => 'password',
+    'charset'  => 'utf8mb4',
+];

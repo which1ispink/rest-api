@@ -1,0 +1,33 @@
+{
+    "name": "which1ispink/rest-api",
+    "description": "A simple REST API for a hypothetical browser game",
+    "authors": [
+        {
+            "name": "Ahmed Hassan",
+            "email": "a.hassan.dev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "phpstan/phpstan": "^0.8.5",
+        "zendframework/zend-coding-standard": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Which1ispink\\API\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Which1ispink\\API\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "serve": "php -S localhost:8080 -t public public/index.php",
+        "test": "vendor/bin/phpunit",
+        "analyse": "phpstan analyse src tests --level 7",
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    }
+}
