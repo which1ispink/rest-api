@@ -114,6 +114,7 @@ class CharacterService
                 break;
             case 'damage':
                 $character->damage($parameters['value']);
+                break;
             default:
                 throw new InvalidOperationException('Unsupported action', 400);
         }
