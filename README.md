@@ -196,11 +196,13 @@ character being already dead (code 409 - conflict).
 All pull requests must adhere to the [PSR-2 standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md).
 
 Some features/improvements that I would suggest looking at include:
+- Adding support for returning and accepting other data types other than 
+JSON.
 - Adding pagination support.
 - Adding filtering support.
 - Adding more stuff to the actual game code, other than characters.
 - Adding more unit tests.
-- Any other improvements you see fit.
+- Any other improvements to the overall design that you see fit.
 
 ## License
 This project is licensed under the MIT license. See [License File](LICENSE.md) for more information.
